@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 247, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 90%;
+    height: 70vh;
+    border: 2px solid black;
+
+}
+h1{
+    letter-spacing: 5px;
+    margin: 50px;
+    margin-top: 80px;
+    color: aliceblue;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+h1:hover{
+    color: black;
+    transform: translateX(20px 20px);
+    font-size: 50px;
+}
+.line {
+   background-color: darkviolet;
+   border-radius: 53% 47% 52% 48% / 44% 28% 72% 56% ;
+   width: 230px;
+   height: 230px;
+   
+}
+.chart{
+    transition: .2s ease-in-out;
+    transform: scale(1);
+   
+}
+.chart:hover{
+  transform: scaley(1.9);
+  transform: scalex(1.2);
+  
+}
